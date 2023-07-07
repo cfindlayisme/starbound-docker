@@ -1,7 +1,7 @@
 # Author: Chuck Findlay <chuck@findlayis.me>
 # License: LGPL v3.0
 
-FROM cfindlayisme/steamcmd:latest
+FROM gitea.findlayis.me/chuck/steamcmd:latest
 
 ARG STEAM_USER=test
 ARG STEAM_PASSWORD=test
