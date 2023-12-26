@@ -3,9 +3,6 @@
 
 FROM gitea.findlayis.me/chuck/steamcmd:latest
 
-ARG STEAM_USER=test
-ARG STEAM_PASSWORD=test
+COPY entry.sh /
 
-# Install is done in this block - requires authenticated steam (tried anonymous - didn't work)
-RUN \
-    /steam/steamcmd.sh +force_install_dir /starbound +login ${STEAM_USER} ${STEAM_PASSWORD} +app_update 211820
+CMD /entry.sh

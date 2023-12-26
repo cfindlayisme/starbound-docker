@@ -2,4 +2,6 @@
 
 Vanilla Starbound server Dockerfile
 
-Stub repo for now - CI just lints the code.
+STEAM_USER and STEAM_PASSWORD env variables need to be set to download and run the dockerfile
+
+Still a stub until I can get it working properly to use - not ready for usage
